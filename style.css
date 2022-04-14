@@ -1,4 +1,4 @@
-{
+.margin {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ header {
     position: relative;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -27,7 +27,7 @@ header {
     background-color: rgba(10,10,10,0,3);
 }
 
-nav{
+nav {
     position: absolute;
     top: 0;
     right: 0;
@@ -54,34 +54,39 @@ nav{
     padding-bottom: 100px;
 }
 
-.image {
+.imageContainer {
     margin-right: 20px;
     margin-left: 20px;
     position: relative;
     overflow: hidden;
 }
+
+.productImage {
+    height: 60px;
+    width: 60px;
+}
 .add-cart {
     position: absolute;
     width: 100%;
-    background-color: darkgrey;
+    background-color: lightgrey;
     transition: all 0.3s ease-in-out;
     opacity: 0;
     cursor: pointer;
     text-align: center;
 }
 
-.image:hover .cart1,
-.image:hover .cart2,
-.image:hover .cart3,
-.image:hover .cart4,
-.image:hover .cart5,
-.image:hover .cart6,
-.image:hover .cart7,
-.image:hover .cart8,
-.image:hover .cart9,
-.image:hover .cart10, {
-    bottom: 50px;
-    opacity: 1;
-    padding: 10px;
+.imageContainer:hover .cart1,
+.imageContainer:hover .cart2,
+.imageContainer:hover .cart3,
+.imageContainer:hover .cart4,
+.imageContainer:hover .cart5,
+.imageContainer:hover .cart6,
+.imageContainer:hover .cart7,
+.imageContainer:hover .cart8,
+.imageContainer:hover .cart9,
+.imageContainer:hover .cart10 {
+    bottom: 0px;
+    opacity: .8;
+    height: 100%;
     text-decoration: none;
 }

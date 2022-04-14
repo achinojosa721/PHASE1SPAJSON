@@ -1,91 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap">
-        <link rel="stylesheet" href="style.css">
-        <title>Shopping Cart</title>
-    </head>
-    <body>
-        <script type= "module" src="/static/js/index.js"></script>
-        <form action="/search"> 
-            <input type="search" name="q" class="border-2 border-black outline-none px-2 h-8 rounded-none placeholder-black font-bold ml-4"></input>
-            </form>
-            <h1>HR CUSTOM GLOVES</h1>
-        <div class="container">
-            <div class="image">
-            <img src="TexasGlove.jpg"/>
-            <h2> Texas Glove</h2>
-            <h2>$250.00</h2>
-            <a class="add cart cart1" href="#">Add Cart</a>
-            <input type="hidden" value="250" />
-        </div>
-        <div class="image">
-            <img src="RedWhiteGlove.jpg"/>
-            <h2>Red and White Glove</h2>
-            <h2>$200.00</h2>
-            <a class="add cart cart2" href="#">Add Cart</a>
-            <input type="hidden" value="200" />
-        </div>
-        <div class="image">
-            <img src="blackyellowglove.jpg"/>
-            <h2>Black and Yellow Glove</h2>
-            <h2>$200.00</h2>
-            <a class="add cart cart3" href="#">Add Cart</a>
-            <input type="hidden" value="200" />
-        </div>
-        <div class="image">
-            <img src="BlackGreyFirstBaseMitt.jpg"/><br/>   
-            <h2>Black and Grey First Base Glove</h2>
-            <h2>$275.00</h2>
-            <a class="add cart cart4" href="#">Add Cart</a>
-            <input type="hidden" value="275" /> 
-        </div>
-        <div class="image">
-            <img src="USAGLOVE.jpg"/>
-            <h2>USA Glove</h2>
-            <h2>$250.00</h2>
-            <a class="add cart cart5" href="#">Add Cart</a>
-            <input type="hidden" value="250" /> 
-        </div>    
-        <div class="image">
-            <img src="BrownTanGlove.jpg"/>
-            <h2>Brown and Tan Glove</h2>
-            <h2>$200.00</h2>
-            <a class="add cart cart6" href="#">Add Cart</a>
-            <input type="hidden" value="200" /> 
-        </div>    
-        <div class="image">
-            <img src="AutismAwarenessGlove.jpg"/>
-            <h2>Autism Awareness Glove</h2>
-            <h2>$250.00</h2>
-            <a class="add cart cart7" href="#">Add Cart</a>
-            <input type="hidden" value="250" /> 
-        </div>
-        <div class="image">
-            <img src="CatchersMitt1.jpg"/>
-            <h2>Catcher's Glove</h2>
-            <h2>$275.00</h2>
-            <a class="add cart cart8" href="#">Add Cart</a>
-            <input type="hidden" value="275" />
-        </div> 
-        <h3>Best Sellers</h3>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>HR CUSTOM GLOVES</title>
+</head>
+
+<body>
+    <script type="module" src="/static/js/index.js"></script>
+    <form action="/search">
+        <input type="search" name="q"
+            class="border-2 border-black outline-none px-2 h-8 rounded-none placeholder-black font-bold ml-4"></input>
+    </form>
+    <h1>HR CUSTOM GLOVES</h1>
+    <div class="container" style="display: block">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/RedWhiteGlove.jpg" class="productImage" />
+                            <h2>Red and White Glove</h2>
+                            <h2>$200.00</h2>
+                            <a class="add cart cart2" href="#">Add Cart</a>
+                            <input type="hidden" value="200" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/blackyellowglove.jpg" class="productImage" />
+                            <h2>Black and Yellow Glove</h2>
+                            <h2>$200.00</h2>
+                            <a class="add cart cart3" href="#">Add Cart</a>
+                            <input type="hidden" value="200" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/BlackGreyFirstBaseMitt.jpg" class="productImage" />
+                            <h2>Black and Grey First Base Glove</h2>
+                            <h2>$275.00</h2>
+                            <a class="add cart cart4" href="#">Add Cart</a>
+                            <input type="hidden" value="275" />
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/USAGLOVE.jpeg" class="productImage" />
+                            <h2>USA Glove</h2>
+                            <h2>$250.00</h2>
+                            <a class="add cart cart5" href="#">Add Cart</a>
+                            <input type="hidden" value="250" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/BrownTanGlove.jpeg"  class="productImage" />
+                            <h2>Brown and Tan Glove</h2>
+                            <h2>$200.00</h2>
+                            <a class="add cart cart6" href="#">Add Cart</a>
+                            <input type="hidden" value="200" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/AutismAwarenessGlove.jpeg" class="productImage"/>
+                            <h2>Autism Awareness Glove</h2>
+                            <h2>$250.00</h2>
+                            <a class="add cart cart7" href="#">Add Cart</a>
+                            <input type="hidden" value="250" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/CatchersMitt1.jpeg"  class="productImage" />
+                            <h2>Catcher's Glove</h2>
+                            <h2>$275.00</h2>
+                            <a class="add cart cart8" href="#">Add Cart</a>
+                            <input type="hidden" value="275" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/Texas Glove.jpg"  class="productImage" />
+                            <h2> Texas Glove</h2>
+                            <h2>$250.00</h2>
+                            <a class="add cart cart1" href="#">Add Cart</a>
+                            <input type="hidden" value="250" />
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table style="width: 50%; margin-left: 20%; margin-right: 20%;">
+            <tbody>
+                <tr>
+                    <th colspan="2">
+                        <h3>Best Sellers</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/BestSellers1.jpeg"  class="productImage" />
+                            <h4>Best Selling#1 Glove</h4>
+                            <h4>$250.00</h4>
+                            <a class="add-cart cart9" href="#">Add Cart</a>
+                            <input type="hidden" value="250" />
+                        </div>
+                    </td>
+                    <td>
+                        <div class="imageContainer">
+                            <img src="images/BestSellers2.jpeg"  class="productImage" />
+                            <h4>Best Selling#2 Glove</h4>
+                            <h4>$250.00</h4>
+                            <div class="add-cart cart10">
+                                <a style="bottom: 0px" href="#">Add Cart</a>
+                            </div>
+                            <input type="hidden" value="250" />
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <div>
-        <div class="image">
-            <img src="BestSellers1.jpg"/>
-            <h4>Best Selling#1 Glove</h4>
-            <h4>$250.00</h4>
-            <a class="add cart cart9" href="#">Add Cart</a>
-            <input type="hidden" value="250" />   
+            <h5>Product Reviews & Comments</h5>
         </div>
-        <div class="image">
-            <img src="BestSellers2.jpg"/>
-            <h4>Best Selling#2 Glove</h4>
-            <h4>$250.00</h4>
-            <a class="add cart cart10" href="#">Add Cart</a>
-            <input type="hidden" value="250" /> 
-        </div>
-        <h5>Product Reviews & Comments</h5>
-    </body>
+</body>
+
 </html>
