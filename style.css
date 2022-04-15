@@ -66,8 +66,8 @@ nav {
     width: 60px;
 }
 .add-cart {
-    position: absolute;
-    width: 100%;
+    position: bottom;
+    width: 50%;
     background-color: lightgrey;
     transition: all 0.3s ease-in-out;
     opacity: 0;
@@ -85,8 +85,10 @@ nav {
 .imageContainer:hover .cart8,
 .imageContainer:hover .cart9,
 .imageContainer:hover .cart10 {
-    bottom: 0px;
-    opacity: .8;
-    height: 100%;
-    text-decoration: none;
+    position: bottom;
+    width: 50%;
+    background-color: lightblue;
+    opacity: 0;
+    
+    
 }
