@@ -2,22 +2,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
     fetch('https://testimonialapi.toolcarton.com/api')
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      setInterval(function() {
+        rotateTestimonials(data);
+      }, 5000);
     });
 });
 
 function rotateTestimonials(_payload) {
-  var i = 1;
-  while(true) {
-    var testimonial = _payload[i%10]
+    var i = Math.floor(Math.random() * 10) % _payload.length;
+    var testimonial = _payload[i]
     var message = testimonial.message;
     var name = testimonial.name;
     var location = testimonial.location;
 
-    
-
-    i += 1;
-    setTimeout(5000);
-  }
-
+    document.getElementById("name").innerText = name;
+    document.getElementById("location").innerText = location;
+    document.getElementById("testimonial").innerText = message;
 }
