@@ -52,6 +52,7 @@ nav {
     flex-wrap: wrap;
     margin-top: 50px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .imageContainer {
@@ -59,6 +60,7 @@ nav {
     margin-left: 20px;
     position: relative;
     overflow: hidden;
+    height: 350px;
 }
 
 .productImage {
@@ -66,7 +68,12 @@ nav {
     width: 200px;
 }
 
+.productImage:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
 .productTitle {
+    height: 30px;
     width: 200px;
     text-align: center;
     font-weight: bold;
@@ -85,7 +92,17 @@ nav {
     cursor: pointer;
     text-align: center;
 }
-
+.reviewTitle {
+    font-weight: bold;
+    font-size: large;
+}
+.testimonialContainer{
+    position: center;
+    width: 40%;
+    text-align: center; 
+    margin-left: 30%;
+    margin-right: 30%;
+}
 .imageContainer:hover .cart1,
 .imageContainer:hover .cart2,
 .imageContainer:hover .cart3,
@@ -101,4 +118,51 @@ nav {
     width: 50%;
     background-color: lightblue;
     opacity: .8;
+}
+
+#testimonial {
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+.productTable {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bestSellerTable {
+    width: 50%; 
+    margin-left: 25%; 
+    margin-right: 25%;
+}
+
+.cart {
+    margin-right: 10%;
+    float:right;
+}
+
+#emptyCart {
+    opacity: 0;
+}
+
+body {
+    color: #222;
+    background: #fff;
+}
+a {
+    color: #0033cc;
+}
+
+body.dark-theme {
+    color: #eee;
+    background: #121212;
+}
+
+body.dark-theme a {
+    color: #809fff;
 }

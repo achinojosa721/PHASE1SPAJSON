@@ -16,8 +16,11 @@
             class="border-2 border-black outline-none px-2 h-8 rounded-none placeholder-black font-bold ml-4"></input>
     </form>
     <h1>HR CUSTOM GLOVES</h1>
+    <a id="cart" class="cart" href="#">Cart</a>
+    <a id="emptyCart" class="cart" href="#">Empty Cart</a>
+        <label for="BuyFormQuantity"></label>
     <div class="container" style="display: block">
-        <table>
+        <table class="productTable">
             <tbody>
                 <tr>
                     <td>
@@ -99,7 +102,7 @@
             </tbody>
         </table>
 
-        <table style="width: 50%; margin-left: 20%; margin-right: 20%;">
+        <table class="bestSellerTable">
             <tbody>
                 <tr>
                     <th colspan="2">
@@ -129,12 +132,15 @@
             </tbody>
         </table>
         <div>
-            <h5>Product Reviews & Comments</h5>
             <div class="testimonialContainer">
+                <div class="reviewTitle">Product Reviews & Comments</div>
                 <div id="testimonial"></div>
                 <div id="name"></div>
                 <div id="location"></div>
             </div>
+        </div>
+        <div>
+            <button class="btn-toggle">Toggle Dark Mode</button>
         </div>
 </body>
 
