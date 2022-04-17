@@ -62,8 +62,19 @@ nav {
 }
 
 .productImage {
-    height: 60px;
-    width: 60px;
+    height: 200px;
+    width: 200px;
+}
+
+.productTitle {
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.productPrice {
+    text-align: left;
 }
 .add-cart {
     position: bottom;
@@ -84,11 +95,10 @@ nav {
 .imageContainer:hover .cart7,
 .imageContainer:hover .cart8,
 .imageContainer:hover .cart9,
-.imageContainer:hover .cart10 {
+.imageContainer:hover .cart10 
+{ 
     position: bottom;
     width: 50%;
     background-color: lightblue;
-    opacity: 0;
-    
-    
+    opacity: .8;
 }
