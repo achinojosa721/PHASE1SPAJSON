@@ -166,3 +166,12 @@ body.dark-theme {
 body.dark-theme a {
     color: #809fff;
 }
+
+.companylogo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+   
+}
