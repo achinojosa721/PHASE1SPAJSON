@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     .then(data => {
       setInterval(function () {
         rotateTestimonials(data);
-      }, 5000);
+      }, 4000);
     });
 });
 function rotateTestimonials(_payload) {
