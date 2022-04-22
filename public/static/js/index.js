@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }, 5000);
     });
 });
-
 function rotateTestimonials(_payload) {
   var i = Math.floor(Math.random() * 10) % _payload.length;
   var testimonial = _payload[i]
