@@ -1,6 +1,7 @@
 # PHASE1SPAJSON
 <h1 align="center">Hi 👋, I'm Alberto Carlos Hinojosa</h1>
 <h3 align="center">A passionate frontend developer from Houston, Texas</h3>
+<h3 align="center">I would like to recognize RH Custom Gloves for the pictures annd logo provided for this project.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=achinojosa721&label=Profile%20views&color=0e75b6&style=flat" alt="achinojosa721" /> </p>
 
