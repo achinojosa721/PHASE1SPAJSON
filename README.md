@@ -13,9 +13,9 @@
 
 - 🌱 I’m currently learning **Frameworks, CSS, JavaScript, Front End Developing**
 
-- 🤝 I’m looking for help with [CSS styling, JavaScript](http://localhost:3000)
+- 🤝 I’m looking for help with [CSS styling, JavaScript](http://localhost:3000#)
 
-- 👨‍💻 All of my projects are available at [https://github.com/achinojosa721/PHASE1SPAJSON](https://github.com/achinojosa721/PHASE1SPAJSON)
+- 👨‍💻 All of my projects are available at [https://github.com/achinojosa721/PHASE1SPAJSON]/Current Phase 1 project is available at (https://github.com/achinojosa721/PHASE1SPAJSON)
 
 - 💬 Ask me about **JavaScript, CSS, Frameworks**
 
