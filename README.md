@@ -9,7 +9,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [RH Custom Gloves](http://localhost:3000)
+- 🔭 I’m currently working on [RH Custom Gloves](http://localhost:3000#) and it can be accessed by cloning from https://github.com/achinojosa721/PHASE1SPAJSON and opening via json-server --watch db.json
 
 - 🌱 I’m currently learning **Frameworks, CSS, JavaScript, Front End Developing**
 
