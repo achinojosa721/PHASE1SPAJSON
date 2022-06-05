@@ -1,19 +1,67 @@
-{
-  "posts": [
-    {
+  { "gloves": [
+    { 
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Red and White Glove",
+      "imageUrl":"images/RedWhiteGlove.jpg" ,
+      "description": "",
+      "amount": "$200.00"
+    },
+    { "id": 2,
+      "name": "Black and Yellow Glove",
+      "imageUrl":"images/blackyellowglove.jpg" ,
+      "description": "",
+      "amount": "$200.00"
+    },
+    { "id": 3,
+      "name": "Black and Grey First Base Glove",
+      "imageUrl":"images/BlackGreyFirstBaseMitt.jpg" ,
+      "description": "",
+      "amount": "$275.00"
+    },
+    { "id": 4,
+      "name": "USA Glove",
+      "imageUrl":"images/USAGLOVE.jpeg" ,
+      "description": "",
+      "amount": "$250.00"
+    },
+    { "id": 5,
+      "name": "Brown and Tan Glove",
+      "imageUrl":"images/BrownTanGlove.jpeg" ,
+      "description": "",
+      "amount": "$200.00"
+    },
+    { "id": 6,
+      "name": "Autism Awareness Glove",
+      "imageUrl":"images/AutismAwarenessGlove.jpeg" ,
+      "description": "",
+      "amount": "$250.00"
+    },
+    { "id": 7,
+      "name": "Catcher's Glove",
+      "imageUrl":"images/CatchersMitt1.jpeg" ,
+      "description": "",
+      "amount": "$275.00"
+    },
+    { "id": 8,
+      "name": "Texas Glove",
+      "imageUrl":"images/Texas Glove.jpg" ,
+      "description": "",
+      "amount": "$250.00"
+    },
+    {"id": 9,
+      "name": "Best Selling#1 Glove",
+      "imageUrl": "images/BestSellers1.jpeg",
+      "description": "",
+      "amount": "$250.00"
+    },
+    {"id": 10,
+      "name": "Best Selling#2 Glove",
+      "imageUrl": "images/BestSellers2.jpeg",
+      "description": "",
+      "amount": "$250.00"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
+
+
+
