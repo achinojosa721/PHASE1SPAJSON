@@ -64,8 +64,8 @@ nav {
 }
 
 .productImage {
-    height: 200px;
-    width: 200px;
+    height: 75px;
+    width: 75px;
 }
 
 .productImage:hover {
@@ -133,12 +133,6 @@ body {
 .productTable {
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.bestSellerTable {
-    width: 50%; 
-    margin-left: 25%; 
-    margin-right: 25%;
 }
 
 .cart {
