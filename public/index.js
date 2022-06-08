@@ -41,19 +41,17 @@ function renderGlove(glove) {
   addToCartButton.className = "cart"
   addToCartButton.className += "add-cart"
   addToCartButton.innerText = "Add To Cart"
+  let hzRule = document.createElement('hr');
   
   function clickAddToCart () {
-    addToCartButton += 1;
-    document.getElementById("cartadd-cart").innerText = "cart(" + addToCart + ")";
+    addToCart += 1;
+    document.getElementById("cart").innerText = "Cart(" + addToCart + ")";
     document.getElementById("emptyCart").style.opacity = 1;
     
   }
   
-  
   addToCartButton.onclick = clickAddToCart;
   
-
-
   const gloveDiv = document.createElement("div")
 
   /**
@@ -70,7 +68,7 @@ function renderGlove(glove) {
   gloveDiv.appendChild(gloveAmount)//img h2 dollar
   gloveDiv.appendChild(addToCartButton)
   productTable.appendChild(gloveDiv)
-  productTable.innerHTML += "<hr>"
+  productTable.appendChild(hzRule)
 }
 function rotateTestimonials(_payload) {
   let i = Math.floor(Math.random() * 10) % _payload.length;
