@@ -1,4 +1,5 @@
 let addToCart = 0;
+let cartText = "Cart"
 
 document.addEventListener("DOMContentLoaded", (event) => {
 
@@ -20,13 +21,6 @@ fetch("http://localhost:3000/gloves")
     }))
 });
 
-// fetch('http://localhost:3000/gloves', {
-//   method: "POST",
-//   headers: {'Content-Type': 'application/json'}, 
-//   body: JSON.stringify(data)
-// })
-// .then(response => response.json()
-// .then(glove)
 
 function renderGlove(glove) {
   const productTable = document.querySelector(".productTable")
@@ -77,19 +71,34 @@ function rotateTestimonials(_payload) {
   let name = testimonial.name;
   let location = testimonial.location;
 
+  document.getElementById("testimonial").innerText = message;
   document.getElementById("name").innerText = name;
   document.getElementById("location").innerText = location;
-  document.getElementById("testimonial").innerText = message;
 }
 
 function addingEventListener() {
 
   document.getElementById("emptyCart").addEventListener("click", clearCart);
 
+  document.getElementById("cart").addEventListener("mouseover", function(obj){
+    cartText = obj.target.innerHTML;
+    if (obj.target.innerHTML != "Cart") {
+      obj.target.innerHTML = "Click to Checkout";
+    }
+  });
+
+  document.getElementById("cart").addEventListener("mouseout", function(obj){
+    obj.target.innerHTML = cartText;
+  });
+
   const btn = document.querySelector('.btn-toggle');
-  btn.addEventListener('click', function () {
+  btn.addEventListener('click', function handleCLick() {
     document.body.classList.toggle('dark-theme');
   })
+}
+
+  function handleClick(){
+    document.body.classList.toggle('dark-theme')
 }
 
 function clearCart() {
