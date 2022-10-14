@@ -48,13 +48,7 @@ function renderGlove(glove) {
   
   const gloveDiv = document.createElement("div")
 
-  /**
-   * create elements for rendering glove
-   * create img, h2, h3, div
-   * button to add to cart
-   * event listener uses CB function add to cart
-   * append to render to page
-   */
+
 
 
   gloveDiv.appendChild(gloveImg)
